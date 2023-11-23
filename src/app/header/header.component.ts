@@ -9,4 +9,6 @@ export class HeaderComponent {
   adresse:string="Adresse: "
   nif:string = 'NIF: '
   stat:string= 'STAT N°: '
+  rcs:string = 'RCS: '
+  nom:string='Nom: '
 }

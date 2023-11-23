@@ -12,5 +12,7 @@ export class InfoComponent {
   nif!:string
   @Input()
   stat!:string
+  @Input()
+  rcs!:string;
 
 }
