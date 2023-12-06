@@ -14,5 +14,6 @@ export class InfoComponent {
   stat!:string
   @Input()
   rcs!:string;
+  type:string='Name'
 
 }
