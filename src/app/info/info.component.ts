@@ -15,5 +15,4 @@ export class InfoComponent {
   @Input()
   rcs!:string;
   type:string='Name'
-
 }

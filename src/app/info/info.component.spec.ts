@@ -5,7 +5,7 @@ import { InfoComponent } from './info.component';
 describe('InfoComponent', () => {
   let component: InfoComponent;
   let fixture: ComponentFixture<InfoComponent>;
-
+  
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [ InfoComponent ]

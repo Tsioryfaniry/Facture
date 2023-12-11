@@ -1,0 +1,9 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    @apply p-2 m-2 w-3/12;
+    border: 1px solid purple;
+}

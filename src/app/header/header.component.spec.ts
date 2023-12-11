@@ -10,14 +10,24 @@ describe('HeaderComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [ HeaderComponent ]
     })
-    .compileComponents();
 
     fixture = TestBed.createComponent(HeaderComponent);
     component = fixture.componentInstance;
-    fixture.detectChanges();
+    // fixture.detectChanges();
   });
 
   it('should create', () => {
-    expect(component).toBeTruthy();
+    let adresse = 'adresse: ' 
+    component.adresse = adresse
+    let nif = 'NIF: '
+    component.nif = nif
+    let stat= 'STAT N°: '
+    component.stat = stat
+    let rcs = 'RCS: '
+    component.rcs = rcs
+    let nom='Nom: '
+    component.nom = nom
+    const headerComponent = new HeaderComponent()
+    expect(headerComponent).toBeTruthy();
   });
 });

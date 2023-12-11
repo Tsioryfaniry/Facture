@@ -6,6 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'facture';
-  nif:string = 'NIF'
+  title:string = 'facture'
 }

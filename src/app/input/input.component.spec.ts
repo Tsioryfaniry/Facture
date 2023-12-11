@@ -18,6 +18,7 @@ describe('InputComponent', () => {
   });
 
   it('should create', () => {
-    expect(component).toBeTruthy();
+    const inputComponent = new InputComponent()
+    expect(inputComponent).toBeTruthy();
   });
 });

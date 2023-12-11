@@ -1,6 +1,7 @@
 .wrap-header {
-    @apply flex p-4 justify-between;
+    @apply flex p-4 justify-between h-full;
     .client {
-        border: 1px solid black;
+        @apply h-full;
+        // border: 1px solid black;
     }
 }
